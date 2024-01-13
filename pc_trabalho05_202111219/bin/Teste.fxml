@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="617.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ImageView fx:id="sliderRalph" fitHeight="624.0" fitWidth="780.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Tela3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vanelopeImageView" fitHeight="62.0" fitWidth="38.0" layoutX="59.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Vanelope.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="startButton" layoutX="627.0" layoutY="194.0" mnemonicParsing="false" onAction="#startButtonClicked" style="-fx-background-radius: 30; -fx-background-color: #6d412a;" text="Iniciar" textFill="#ffffff00">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fx:id="candyImageView" fitHeight="44.0" fitWidth="38.0" layoutX="116.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Candy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ralphImageView" fitHeight="44.0" fitWidth="38.0" layoutX="12.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Ralph.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="felixImageView" fitHeight="45.0" fitWidth="36.0" layoutX="523.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Felix.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jubilenaImageView" fitHeight="41.0" fitWidth="36.0" layoutX="218.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Jubilena.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tafytaImageView" fitHeight="51.0" fitWidth="38.0" layoutX="422.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Tafyta.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stickyImageView" fitHeight="45.0" fitWidth="38.0" layoutX="473.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Sticky.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mintyImageView" fitHeight="62.0" fitWidth="38.0" layoutX="266.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Minty.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderVanelope" layoutX="580.0" layoutY="302.0" max="8.0" min="5.0" prefHeight="16.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Slider fx:id="sliderTafyta" layoutX="689.0" layoutY="302.0" max="8.0" min="5.0" prefHeight="10.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Slider fx:id="sliderCandy" layoutX="579.0" layoutY="377.0" max="8.0" min="5.0" prefHeight="0.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Slider fx:id="sliderSticky" layoutX="579.0" layoutY="451.0" max="8.0" min="5.0" prefHeight="14.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Slider fx:id="sliderFelix" layoutX="689.0" layoutY="451.0" max="8.0" min="5.0" prefHeight="14.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Slider fx:id="sliderJubilena" layoutX="579.0" layoutY="524.0" max="8.0" min="5.0" prefHeight="14.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Slider fx:id="sliderMinty" layoutX="689.0" layoutY="524.0" max="8.0" min="5.0" prefHeight="14.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Slider fx:id="sliderRalp" layoutX="689.0" layoutY="377.0" max="8.0" min="5.0" prefHeight="14.0" prefWidth="83.0" style="-fx-background-color: #d35bb0;" />
+      <Button fx:id="pauseVanelope" layoutX="629.0" layoutY="264.0" mnemonicParsing="false" onAction="#pauseVanelope" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeVanelope" disable="true" layoutX="628.0" layoutY="263.0" mnemonicParsing="false" onAction="#resumeVanelope" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pauseTafyta" layoutX="731.0" layoutY="264.0" mnemonicParsing="false" onAction="#pauseTafyta" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeTafyta" disable="true" layoutX="731.0" layoutY="264.0" mnemonicParsing="false" onAction="#resumeTafyta" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pauseCandy" layoutX="628.0" layoutY="338.0" mnemonicParsing="false" onAction="#pauseCandy" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeCandy" disable="true" layoutX="628.0" layoutY="338.0" mnemonicParsing="false" onAction="#resumeCandy" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pauseRalph" layoutX="736.0" layoutY="338.0" mnemonicParsing="false" onAction="#pauseRalph" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeRalph" disable="true" layoutX="736.0" layoutY="338.0" mnemonicParsing="false" onAction="#resumeRalph" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pauseSticky" layoutX="628.0" layoutY="413.0" mnemonicParsing="false" onAction="#pauseSticky" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeSticky" disable="true" layoutX="628.0" layoutY="413.0" mnemonicParsing="false" onAction="#resumeSticky" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pauseFelix" layoutX="735.0" layoutY="414.0" mnemonicParsing="false" onAction="#pauseFelix" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeFelix" disable="true" layoutX="735.0" layoutY="414.0" mnemonicParsing="false" onAction="#resumeFelix" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pauseJubilena" layoutX="628.0" layoutY="486.0" mnemonicParsing="false" onAction="#pauseJubilena" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeJubilena" disable="true" layoutX="628.0" layoutY="486.0" mnemonicParsing="false" onAction="#resumeJubilena" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="pauseMinty" layoutX="735.0" layoutY="487.0" mnemonicParsing="false" onAction="#pauseMinty" prefHeight="16.0" prefWidth="25.0" style="-fx-background-color: #6d412a;">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pause2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="resumeMinty" disable="true" layoutX="735.0" layoutY="487.0" mnemonicParsing="false" onAction="#resumeMinty" style="-fx-background-color: #6d412a;" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Start2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

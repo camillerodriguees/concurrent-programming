@@ -1,0 +1,92 @@
+#calcule {
+
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 30;
+  -fx-border-radius: 30;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #004aad;
+
+
+}
+
+#calcule:hover {
+
+  -fx-background-color: #6fb5d7;
+  -fx-background-radius: 30;
+  -fx-border-radius: 30;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #ffffff;
+
+
+}
+
+#calcule:pressed {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 30;
+  -fx-border-radius: 30;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #004aad;
+
+
+}
+
+#close {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 40;
+  -fx-border-radius: 40;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #ffffff;
+  -fx-text-fill: #004aad;
+}
+
+#close:hover {
+  -fx-background-color: #6fb5d7;
+  -fx-background-radius: 40;
+  -fx-border-radius: 40;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #004aad;
+  -fx-text-fill: #ffffff;
+}
+
+#close:pressed {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 40;
+  -fx-border-radius: 40;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #004aad;
+  -fx-text-fill: #004aad;
+}
+
+#minimize {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 40;
+  -fx-border-radius: 40;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #ffffff;
+  -fx-text-fill: #004aad;
+}
+
+#minimize:hover {
+  -fx-background-color: #6fb5d7;
+  -fx-background-radius: 40;
+  -fx-border-radius: 40;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #004aad;
+  -fx-text-fill: #ffffff;
+}
+
+#minimize:pressed {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 40;
+  -fx-border-radius: 40;
+  -fx-border-color: #004aad;
+  -fx-text-fill: #004aad;
+  -fx-text-fill: #004aad;
+}
+
+#ListaIdades{
+  -fx-font-size: 19;
+  
+}
+
+
